@@ -26,6 +26,7 @@ public class else_if_practice_1 {
         else {
                 System.out.println("It is scalene traingle");
             }
+        scanner.close();
             
         }
 
