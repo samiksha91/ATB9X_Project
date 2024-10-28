@@ -14,10 +14,13 @@ public class else_if_practice_1 {
         System.out.println("Enter side 3:");
         int side3 = scanner.nextInt();
 
-        if (side1==side2 && side1==side3){
+        if (side1<=0 || side2<=0 || side3<=0){
+            System.out.println("This is a negative number");
+        }
+        if (side1==side2 && side1==side3 && side2==side3){
             System.out.println("It is a triangle");
         }
-        else if (side1==side2 || side1==side3) {
+        else if (side1==side2 || side1==side3 || side2==side3) {
             System.out.println("It is a isoceles triangle");
         }
         else {
