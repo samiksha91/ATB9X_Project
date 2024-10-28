@@ -1,3 +1,6 @@
+
+//Take a user input - Name, Age and Salary and print them in the end.
+
 package Task_03042024;
 
 import java.util.Scanner;

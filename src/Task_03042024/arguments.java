@@ -1,3 +1,6 @@
+
+// Take a user input 2 numbers from the arguments and calculate the maximum in between with ternary operator.
+
 package Task_03042024;
 
 public class arguments {
