@@ -23,7 +23,7 @@ public class switch_loop_3 {
                 System.out.println("Enter fahrenheit:");
                 double fahrenheit = scanner.nextDouble();
                 double celsius = (fahrenheit - 32) * 5/9;
-                System.out.println(fahrenheit + celsius);
+                System.out.println(celsius);
                 break;
 
             default:
